@@ -56,7 +56,6 @@ struct AddTransactionView: View {
                     showAlert = true
                     return
                 }
-//                let transaction = Transaction(title: transactionTitle, type: selectedTransactionType, amount: amount, date: Date())
                 if let transactionToEdit = transactionToEdit {
                     transactionToEdit.title = transactionTitle
                     transactionToEdit.amount = amount
